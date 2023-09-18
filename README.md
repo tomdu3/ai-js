@@ -2,6 +2,10 @@
 
 This is a starter code you can clone to build your first AI project in JavaScript✊
 
+It's a simple chat interface that allows you to talk with the Last Codebender.
+
+It utilizes the OpenAI gpt-3.5-turbo model for chat completion.
+
 <img src="app-demo.gif" alt="app homepage" width=600>
 
 ## How to run the app
