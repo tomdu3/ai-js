@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000e1e;
 }
 
 .App {
   text-align: center;
   background-color: #000e1e;
-  height: 100vh;
+  height: calc(100vh - 60px);
+  /* Adjusting for the navbar */
   color: white;
   display: flex;
   margin: 0;
@@ -19,6 +21,36 @@ body {
 .container {
   padding-top: 100px;
   width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000e1e;
+  padding: 10px 40px;
+  height: 60px;
+}
+
+.color-primary {
+  color: #e02aff;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#api-key {
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e02aff;
+  background-color: #021424;
+  color: white;
+}
+
+#api-key::placeholder {
+  color: #7a7a7a;
 }
 
 h1 {

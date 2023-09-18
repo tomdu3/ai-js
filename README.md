@@ -2,6 +2,8 @@
 
 This is a starter code you can clone to build your first AI project in JavaScript✊
 
+<img src="app-demo.gif" alt="app homepage" width=600>
+
 ## How to run the app
 
 Create a `.env` file and add your API key there.
