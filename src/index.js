@@ -38,7 +38,7 @@ async function getData(input) {
         console.error("HTTP ERROR: " + response.status + "\n" + response.statusText);
         loading = false;
         spinner.style.display = 'none';
-        resultP.textContent = "An error occurred. Make sure you entered your API key on the top left.";
+        resultP.textContent = "An error occurred. Make sure you entered your API key on the top right.";
     } else {
         const data = await response.json();
         result = data.choices[0].message.content;
