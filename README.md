@@ -6,6 +6,8 @@ It's a simple chat interface that allows you to talk with the Last Codebender.
 
 It utilizes the OpenAI gpt-3.5-turbo model for chat completion.
 
+PS: You need to enter your API key in the top right to use the app. You can find your key [here](https://platform.openai.com/api-keys) after you create an account on https://platform.openai.com.
+
 <img src="app-demo.gif" alt="app homepage" width=600>
 
 ## How to run the app on your local computer
